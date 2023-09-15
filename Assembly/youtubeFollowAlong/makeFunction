@@ -1,0 +1,3 @@
+nasm -f elf32  firstFunction.asm -o  firstFunction.o
+ld -m elf_i386  firstFunction.o -o  firstFunction
+echo "done"
